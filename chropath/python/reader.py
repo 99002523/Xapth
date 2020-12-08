@@ -2,7 +2,7 @@ import    sys
 import    csv
 
 def csvfinder(b):
-    csv_file="C:\\Users\\99002523\\eclipse-workspace\\chropath\\files\\apple2.csv"
+    csv_file="C:\\Users\\99002523\\eclipse-workspace\\chropath\\files\\apple3.csv"
     # open csv file
     str=""
     with open(csv_file, 'r') as csvfile:
@@ -17,7 +17,7 @@ def csvfinder(b):
     return str
 
 def stepFinder():
-    csv_file="C:\\Users\\99002523\\eclipse-workspace\\chropath\\files\\apple2.csv"
+    csv_file="C:\\Users\\99002523\\eclipse-workspace\\chropath\\files\\apple3.csv"
     # open csv file
     array=[]
     myList=[]

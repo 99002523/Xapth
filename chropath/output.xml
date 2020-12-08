@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201208 14:48:43.087" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201208 17:36:57.150" rpa="false">
 <suite id="s1" name="Chropath" source="C:\Users\99002523\eclipse-workspace\chropath">
 <suite id="s1-s1" name="Testsuite" source="C:\Users\99002523\eclipse-workspace\chropath\testsuite">
 <suite id="s1-s1-s1" name="Chropath" source="C:\Users\99002523\eclipse-workspace\chropath\testsuite\chropath.robot">
@@ -10,42 +10,42 @@
 <arg>Path</arg>
 <arg>${EXECDIR}${/}driver${/}</arg>
 </arguments>
-<msg timestamp="20201208 14:48:43.326" level="INFO">Environment variable 'Path' set to value 'C:/Users/99002523/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/99002523/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Users\99002523\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\99002523\AppData\Local\Programs\Python\Python39\;C:\Users\99002523\AppData\Local\Microsoft\WindowsApps;;C:\Users\99002523\Desktop;;C:\Users\99002523\eclipse-workspace\chropath\driver\'.</msg>
-<status status="PASS" starttime="20201208 14:48:43.325" endtime="20201208 14:48:43.326"></status>
+<msg timestamp="20201208 17:36:57.382" level="INFO">Environment variable 'Path' set to value 'C:/Users/99002523/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/99002523/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Users\99002523\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\99002523\AppData\Local\Programs\Python\Python39\;C:\Users\99002523\AppData\Local\Microsoft\WindowsApps;;C:\Users\99002523\Desktop;;C:\Users\99002523\eclipse-workspace\chropath\driver\'.</msg>
+<status status="PASS" starttime="20201208 17:36:57.382" endtime="20201208 17:36:57.382"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
 <arguments>
 <arg>browser=chrome</arg>
 </arguments>
-<msg timestamp="20201208 14:48:43.326" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20201208 14:48:43.326" endtime="20201208 14:48:47.120"></status>
+<msg timestamp="20201208 17:36:57.383" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20201208 17:36:57.382" endtime="20201208 17:37:01.211"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20201208 14:48:47.120" endtime="20201208 14:48:49.237"></status>
+<status status="PASS" starttime="20201208 17:37:01.211" endtime="20201208 17:37:03.329"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>url=https://www.apple.com/in/</arg>
 </arguments>
-<msg timestamp="20201208 14:48:49.238" level="INFO">Opening url 'https://www.apple.com/in/'</msg>
-<status status="PASS" starttime="20201208 14:48:49.237" endtime="20201208 14:48:50.221"></status>
+<msg timestamp="20201208 17:37:03.330" level="INFO">Opening url 'https://www.apple.com/in/'</msg>
+<status status="PASS" starttime="20201208 17:37:03.329" endtime="20201208 17:37:04.829"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>10s</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.221" endtime="20201208 14:48:50.223"></status>
+<status status="PASS" starttime="20201208 17:37:04.829" endtime="20201208 17:37:04.831"></status>
 </kw>
 <kw name="Step Finder" library="reader">
 <assign>
 <var>${steps}</var>
 </assign>
-<msg timestamp="20201208 14:48:50.225" level="INFO">${steps} = ['Step', 'Open website', 'Click on Learn more', 'Click on Watch the event']</msg>
-<status status="PASS" starttime="20201208 14:48:50.223" endtime="20201208 14:48:50.225"></status>
+<msg timestamp="20201208 17:37:04.832" level="INFO">${steps} = ['Step', 'Open website', 'Click on Apple Watch Series 6', 'Click on Why Apple Watch', 'Click on Buy', 'Click on Filter', 'Click on Titanium', 'Click on proceed', 'Click on 44mm', 'Click on add-to-cart...</msg>
+<status status="PASS" starttime="20201208 17:37:04.831" endtime="20201208 17:37:04.832"></status>
 </kw>
 <kw name="${element} IN [ @{steps} ]" type="for">
 <kw name="${element} = Step" type="foritem">
@@ -54,16 +54,16 @@
 <arguments>
 <arg>${\n}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.226" endtime="20201208 14:48:50.226"></status>
+<status status="PASS" starttime="20201208 17:37:04.833" endtime="20201208 17:37:04.833"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.226" endtime="20201208 14:48:50.226"></status>
+<status status="PASS" starttime="20201208 17:37:04.833" endtime="20201208 17:37:04.834"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:50.225" endtime="20201208 14:48:50.227"></status>
+<status status="PASS" starttime="20201208 17:37:04.833" endtime="20201208 17:37:04.834"></status>
 </kw>
 <kw name="${element} = Open website" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -71,110 +71,222 @@
 <arguments>
 <arg>${\n}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.227" endtime="20201208 14:48:50.227"></status>
+<status status="PASS" starttime="20201208 17:37:04.834" endtime="20201208 17:37:04.834"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.228" endtime="20201208 14:48:50.228"></status>
+<status status="PASS" starttime="20201208 17:37:04.835" endtime="20201208 17:37:04.835"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:50.227" endtime="20201208 14:48:50.228"></status>
+<status status="PASS" starttime="20201208 17:37:04.834" endtime="20201208 17:37:04.835"></status>
 </kw>
-<kw name="${element} = Click on Learn more" type="foritem">
+<kw name="${element} = Click on Apple Watch Series 6" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${\n}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.229" endtime="20201208 14:48:50.229"></status>
+<status status="PASS" starttime="20201208 17:37:04.835" endtime="20201208 17:37:04.835"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.229" endtime="20201208 14:48:50.230"></status>
+<status status="PASS" starttime="20201208 17:37:04.836" endtime="20201208 17:37:04.836"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:50.228" endtime="20201208 14:48:50.230"></status>
+<status status="PASS" starttime="20201208 17:37:04.835" endtime="20201208 17:37:04.836"></status>
 </kw>
-<kw name="${element} = Click on Watch the event" type="foritem">
+<kw name="${element} = Click on Why Apple Watch" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${\n}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.230" endtime="20201208 14:48:50.230"></status>
+<status status="PASS" starttime="20201208 17:37:04.836" endtime="20201208 17:37:04.837"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:50.231" endtime="20201208 14:48:50.231"></status>
+<status status="PASS" starttime="20201208 17:37:04.837" endtime="20201208 17:37:04.837"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:50.230" endtime="20201208 14:48:50.231"></status>
+<status status="PASS" starttime="20201208 17:37:04.836" endtime="20201208 17:37:04.837"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:50.225" endtime="20201208 14:48:50.231"></status>
-</kw>
-<kw name="Set Local Variable" library="BuiltIn">
-<doc>Makes a variable available everywhere within the local scope.</doc>
+<kw name="${element} = Click on Buy" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>${3}</arg>
+<arg>${\n}</arg>
 </arguments>
-<assign>
-<var>${a}</var>
-</assign>
-<msg timestamp="20201208 14:48:50.232" level="INFO">${3} = 3</msg>
-<msg timestamp="20201208 14:48:50.232" level="INFO">${a} = None</msg>
-<status status="PASS" starttime="20201208 14:48:50.231" endtime="20201208 14:48:50.232"></status>
+<status status="PASS" starttime="20201208 17:37:04.837" endtime="20201208 17:37:04.838"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.838" endtime="20201208 17:37:04.838"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.837" endtime="20201208 17:37:04.838"></status>
+</kw>
+<kw name="${element} = Click on Filter" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.838" endtime="20201208 17:37:04.839"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.839" endtime="20201208 17:37:04.839"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.838" endtime="20201208 17:37:04.839"></status>
+</kw>
+<kw name="${element} = Click on Titanium" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.840" endtime="20201208 17:37:04.840"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.840" endtime="20201208 17:37:04.840"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.839" endtime="20201208 17:37:04.841"></status>
+</kw>
+<kw name="${element} = Click on proceed" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.841" endtime="20201208 17:37:04.841"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.841" endtime="20201208 17:37:04.841"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.841" endtime="20201208 17:37:04.842"></status>
+</kw>
+<kw name="${element} = Click on 44mm" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.842" endtime="20201208 17:37:04.842"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.842" endtime="20201208 17:37:04.843"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.842" endtime="20201208 17:37:04.843"></status>
+</kw>
+<kw name="${element} = Click on add-to-cart" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.843" endtime="20201208 17:37:04.843"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.843" endtime="20201208 17:37:04.844"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.843" endtime="20201208 17:37:04.844"></status>
+</kw>
+<kw name="${element} = Click on 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${\n}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.844" endtime="20201208 17:37:04.844"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:04.844" endtime="20201208 17:37:04.845"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.844" endtime="20201208 17:37:04.845"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:37:04.832" endtime="20201208 17:37:04.845"></status>
 </kw>
 <kw name="Csvfinder" library="reader">
 <arguments>
-<arg>Click on Learn more</arg>
+<arg>Click on Apple Watch Series 6</arg>
 </arguments>
 <assign>
 <var>${apr}</var>
 </assign>
-<msg timestamp="20201208 14:48:50.234" level="INFO">${apr} = //body/main[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]
-</msg>
-<status status="PASS" starttime="20201208 14:48:50.232" endtime="20201208 14:48:50.234"></status>
-</kw>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until the element ``locator`` is visible.</doc>
-<arguments>
-<arg>${apr}</arg>
-</arguments>
-<status status="PASS" starttime="20201208 14:48:50.234" endtime="20201208 14:48:50.337"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
-<arguments>
-<arg>${apr}</arg>
-</arguments>
-<msg timestamp="20201208 14:48:50.338" level="INFO">Clicking element '//body/main[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]
-'.</msg>
-<status status="PASS" starttime="20201208 14:48:50.338" endtime="20201208 14:48:52.540"></status>
-</kw>
-<kw name="Csvfinder" library="reader">
-<arguments>
-<arg>Click on Watch the event</arg>
-</arguments>
-<assign>
-<var>${apr}</var>
-</assign>
-<msg timestamp="20201208 14:48:52.542" level="INFO">//span[contains(text(),'Watch the event')]</msg>
-<msg timestamp="20201208 14:48:52.542" level="INFO">${apr} = //span[contains(text(),'Watch the event')]
-</msg>
-<status status="PASS" starttime="20201208 14:48:52.541" endtime="20201208 14:48:52.542"></status>
+<msg timestamp="20201208 17:37:04.846" level="INFO">${apr} = //body/main[1]/section[3]/div[4]/div[1]/div[1]/a[1]</msg>
+<status status="PASS" starttime="20201208 17:37:04.845" endtime="20201208 17:37:04.846"></status>
 </kw>
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${apr}</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:52.543" endtime="20201208 14:48:52.833"></status>
+<status status="PASS" starttime="20201208 17:37:04.846" endtime="20201208 17:37:05.135"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:05.135" endtime="20201208 17:37:05.168"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:05.169" level="INFO">Clicking element '//body/main[1]/section[3]/div[4]/div[1]/div[1]/a[1]'.</msg>
+<status status="PASS" starttime="20201208 17:37:05.169" endtime="20201208 17:37:06.168"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on Why Apple Watch</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:06.169" level="INFO">//a[contains(text(),'Why Apple Watch')]</msg>
+<msg timestamp="20201208 17:37:06.170" level="INFO">${apr} = //a[contains(text(),'Why Apple Watch')]
+</msg>
+<status status="PASS" starttime="20201208 17:37:06.168" endtime="20201208 17:37:06.170"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:06.170" endtime="20201208 17:37:06.448"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` is visible.</doc>
@@ -182,24 +294,286 @@
 <arg>${apr}</arg>
 <arg>30s</arg>
 </arguments>
-<status status="PASS" starttime="20201208 14:48:52.833" endtime="20201208 14:48:52.854"></status>
+<status status="PASS" starttime="20201208 17:37:06.448" endtime="20201208 17:37:06.465"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${apr}</arg>
 </arguments>
-<msg timestamp="20201208 14:48:52.855" level="INFO">Clicking element '//span[contains(text(),'Watch the event')]
+<msg timestamp="20201208 17:37:06.466" level="INFO">Clicking element '//a[contains(text(),'Why Apple Watch')]
 '.</msg>
-<status status="PASS" starttime="20201208 14:48:52.855" endtime="20201208 14:48:54.175"></status>
+<status status="PASS" starttime="20201208 17:37:06.465" endtime="20201208 17:37:07.117"></status>
 </kw>
-<status status="PASS" starttime="20201208 14:48:43.325" endtime="20201208 14:48:54.175" critical="yes"></status>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on Buy</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:07.118" level="INFO">${apr} = //body/nav[@id='ac-localnav']/div[1]/div[2]/div[2]/div[2]/div[2]/a[1]</msg>
+<status status="PASS" starttime="20201208 17:37:07.118" endtime="20201208 17:37:07.119"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:07.119" endtime="20201208 17:37:07.400"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:07.400" endtime="20201208 17:37:07.415"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:07.415" level="INFO">Clicking element '//body/nav[@id='ac-localnav']/div[1]/div[2]/div[2]/div[2]/div[2]/a[1]'.</msg>
+<status status="PASS" starttime="20201208 17:37:07.415" endtime="20201208 17:37:12.912"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on Filter</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:12.914" level="INFO">//span[contains(text(),'Filter')]</msg>
+<msg timestamp="20201208 17:37:12.914" level="INFO">${apr} = //span[contains(text(),'Filter')]
+</msg>
+<status status="PASS" starttime="20201208 17:37:12.912" endtime="20201208 17:37:12.914"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:12.914" endtime="20201208 17:37:13.214"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:13.214" endtime="20201208 17:37:13.229"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:13.230" level="INFO">Clicking element '//span[contains(text(),'Filter')]
+'.</msg>
+<status status="PASS" starttime="20201208 17:37:13.229" endtime="20201208 17:37:13.295"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on Titanium</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:13.296" level="INFO">${apr} = //body/div[@id='page']/div[7]/store-provider[1]/grid-page[1]/filter-bar[1]/div[1]/div[1]/div[1]/div[1]/fieldset[2]/materializer[2]/div[1]/div[3]/label[1]</msg>
+<status status="PASS" starttime="20201208 17:37:13.295" endtime="20201208 17:37:13.296"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:13.296" endtime="20201208 17:37:13.602"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:13.602" endtime="20201208 17:37:13.621"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:13.621" level="INFO">Clicking element '//body/div[@id='page']/div[7]/store-provider[1]/grid-page[1]/filter-bar[1]/div[1]/div[1]/div[1]/div[1]/fieldset[2]/materializer[2]/div[1]/div[3]/label[1]'.</msg>
+<status status="PASS" starttime="20201208 17:37:13.621" endtime="20201208 17:37:13.690"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on proceed</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:13.691" level="INFO">${apr} = //button[@id='name-2-0']</msg>
+<status status="PASS" starttime="20201208 17:37:13.690" endtime="20201208 17:37:13.691"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:13.691" endtime="20201208 17:37:13.967"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:13.967" endtime="20201208 17:37:13.982"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:13.982" level="INFO">Clicking element '//button[@id='name-2-0']'.</msg>
+<status status="PASS" starttime="20201208 17:37:13.982" endtime="20201208 17:37:17.635"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on 44mm</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:17.637" level="INFO">//div[contains(text(),'44mm')]</msg>
+<msg timestamp="20201208 17:37:17.637" level="INFO">${apr} = //div[contains(text(),'44mm')]
+</msg>
+<status status="PASS" starttime="20201208 17:37:17.636" endtime="20201208 17:37:17.638"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:17.638" endtime="20201208 17:37:17.918"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:17.918" endtime="20201208 17:37:17.933"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:17.934" level="INFO">Clicking element '//div[contains(text(),'44mm')]
+'.</msg>
+<status status="PASS" starttime="20201208 17:37:17.933" endtime="20201208 17:37:18.039"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on add-to-cart</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:18.040" level="INFO">${apr} = //body/div[@id='page']/div[@id='select-product']/div[1]/div[4]/div[1]/div[1]/div[2]/div[3]/store-provider[1]/step1-apollo[1]/summary-builder[1]/div[10]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1...</msg>
+<status status="PASS" starttime="20201208 17:37:18.039" endtime="20201208 17:37:18.040"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:18.040" endtime="20201208 17:37:19.302"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:19.303" endtime="20201208 17:37:19.318"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:19.318" level="INFO">Clicking element '//body/div[@id='page']/div[@id='select-product']/div[1]/div[4]/div[1]/div[1]/div[2]/div[3]/store-provider[1]/step1-apollo[1]/summary-builder[1]/div[10]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/span[1]/button[1]'.</msg>
+<status status="PASS" starttime="20201208 17:37:19.318" endtime="20201208 17:37:24.322"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20201208 17:37:29.324" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201208 17:37:24.322" endtime="20201208 17:37:29.324"></status>
+</kw>
+<kw name="Csvfinder" library="reader">
+<arguments>
+<arg>Click on 1</arg>
+</arguments>
+<assign>
+<var>${apr}</var>
+</assign>
+<msg timestamp="20201208 17:37:29.326" level="INFO">//span[contains(text(),'Review Bag')]</msg>
+<msg timestamp="20201208 17:37:29.326" level="INFO">${apr} = //span[contains(text(),'Review Bag')]</msg>
+<status status="PASS" starttime="20201208 17:37:29.324" endtime="20201208 17:37:29.326"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:29.326" endtime="20201208 17:37:29.619"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${apr}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:29.620" endtime="20201208 17:37:29.635"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${apr}</arg>
+</arguments>
+<msg timestamp="20201208 17:37:29.635" level="INFO">Clicking element '//span[contains(text(),'Review Bag')]'.</msg>
+<status status="PASS" starttime="20201208 17:37:29.635" endtime="20201208 17:37:32.098"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//button[@id='shoppingCart.actions.navCheckout']</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20201208 17:37:32.098" endtime="20201208 17:37:32.116"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Your bag total is</arg>
+</arguments>
+<msg timestamp="20201208 17:37:32.129" level="INFO">Current page contains text 'Your bag total is'.</msg>
+<status status="PASS" starttime="20201208 17:37:32.117" endtime="20201208 17:37:32.129"></status>
+</kw>
+<status status="PASS" starttime="20201208 17:36:57.381" endtime="20201208 17:37:32.130" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20201208 14:48:43.149" endtime="20201208 14:48:54.176"></status>
+<status status="PASS" starttime="20201208 17:36:57.205" endtime="20201208 17:37:32.130"></status>
 </suite>
-<status status="PASS" starttime="20201208 14:48:43.147" endtime="20201208 14:48:54.177"></status>
+<status status="PASS" starttime="20201208 17:36:57.203" endtime="20201208 17:37:32.132"></status>
 </suite>
-<status status="PASS" starttime="20201208 14:48:43.127" endtime="20201208 14:48:54.179"></status>
+<status status="PASS" starttime="20201208 17:36:57.182" endtime="20201208 17:37:32.133"></status>
 </suite>
 <statistics>
 <total>

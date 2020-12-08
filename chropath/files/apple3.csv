@@ -1,0 +1,11 @@
+Step,Data,XPath,
+Open website,https://www.apple.com/in/,,
+Click on Apple Watch Series 6,,//body/main[1]/section[3]/div[4]/div[1]/div[1]/a[1],
+Click on Why Apple Watch,,//a[contains(text(),'Why Apple Watch')]
+Click on Buy,,//body/nav[@id='ac-localnav']/div[1]/div[2]/div[2]/div[2]/div[2]/a[1],
+Click on Filter,,//span[contains(text(),'Filter')]
+Click on Titanium,,//body/div[@id='page']/div[7]/store-provider[1]/grid-page[1]/filter-bar[1]/div[1]/div[1]/div[1]/div[1]/fieldset[2]/materializer[2]/div[1]/div[3]/label[1],
+Click on proceed,,//button[@id='name-2-0'],
+Click on 44mm,,//div[contains(text(),'44mm')]
+Click on add-to-cart,,//body/div[@id='page']/div[@id='select-product']/div[1]/div[4]/div[1]/div[1]/div[2]/div[3]/store-provider[1]/step1-apollo[1]/summary-builder[1]/div[10]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/span[1]/button[1],
+Click on 1,,//span[contains(text(),'Review Bag')],
