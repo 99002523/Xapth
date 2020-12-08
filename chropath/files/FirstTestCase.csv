@@ -1,0 +1,12 @@
+Step,Data,Command
+Open website,https://www.coursera.org/,
+Click on Free learning resources For Un,,driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[1]"))
+Click on Close,,driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]/span[1]/*[1]"))
+Click on Join for Free,,driver.findElement(By.xpath("//a[contains(text(),'Join for Free')]"))
+Enter Full name,A Prasanna,driver.findElement(By.xpath("//input[@id='nameInput_31-input']"))
+Enter Email,allurprasanna@gmail.com,driver.findElement(By.xpath("//input[@id='emailInput_101-input']"))
+Enter Password,Prasanna@97,driver.findElement(By.xpath("//input[@id='passwordInput_135-input']"))
+Click on Join for Free,,driver.findElement(By.xpath("/html[1]/body[1]/div[1]/header[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/button[1]"))
+Click on Skip,,driver.findElement(By.xpath("//button[contains(text(),'Skip')]"))
+Click on A Prasanna,,driver.findElement(By.xpath("//span[contains(text(),'A Prasanna')]"))
+Click on Log Out,,driver.findElement(By.xpath("//header/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[11]/div[1]/ul[1]/li[8]/form[1]/button[1]"))

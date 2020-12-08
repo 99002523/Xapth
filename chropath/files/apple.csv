@@ -1,0 +1,5 @@
+Step,Data,XPath
+Open website,https://www.apple.com/in/,
+Click on Support,,//body/nav[@id='ac-globalnav']/div[1]/ul[2]/li[8]/a[1]
+Click on Contact Apple Support,,//body/div[6]/section[1]/div[1]/div[1]/div[2]/section[1]/div[1]/div[2]/div[1]/section[1]/ul[1]/li[5]/a[1]
+Click on iPhone battery replacement,,//span[contains(text(),'iPhone battery replacement')]

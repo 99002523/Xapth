@@ -1,0 +1,4 @@
+Step,Data,XPath
+Open website,https://www.apple.com/in/,
+Click on Learn more,,//body/main[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]
+Click on Watch the event,,//span[contains(text(),'Watch the event')]
